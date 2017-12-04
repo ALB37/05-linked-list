@@ -1,6 +1,5 @@
 'use strict';
 
-//vinicio - This is capital L because it's a class
 const LinkedList = require('../model/linked-list');
 
 describe('linked-list.js',() => {
@@ -48,7 +47,7 @@ describe('linked-list.js',() => {
 
   });
 
-  test('remove should be able to erase the first element of a linkedList', () => {
+  test('remove should be able to erase the first element of a LinkedList', () => {
     let first = new LinkedList(10);
     let second = new LinkedList(20);
     let third = new LinkedList(30);
@@ -68,7 +67,7 @@ describe('linked-list.js',() => {
     expect(first.next.next).toEqual(null);
   });
 
-  test('remove should remove nothing if the node isn\'t present in linkedList', () =>{
+  test('remove should remove nothing if the node isn\'t present in LinkedList', () =>{
     let first = new LinkedList(10);
     let second = new LinkedList(20);
     let third = new LinkedList(30);
@@ -86,7 +85,7 @@ describe('linked-list.js',() => {
     expect(first.next.next).toEqual(null);
   });
 
-  test('remove should throw if node is not a linkedList', () => {
+  test('remove should throw if node is not a LinkedList', () => {
     let first = new LinkedList(10);
     expect(() => first.remove(10)).toThrow();
   });
