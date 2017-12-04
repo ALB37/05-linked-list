@@ -1,0 +1,27 @@
+{
+  "name": "lab-andrew",
+  "version": "1.0.0",
+  "description": "linked-lists",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest -i --coverage",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ALB37/05-linked-list.git"
+  },
+  "keywords": [
+    "linked-lists"
+  ],
+  "author": "Andrew Bloom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ALB37/05-linked-list/issues"
+  },
+  "homepage": "https://github.com/ALB37/05-linked-list#readme",
+  "dependencies": {
+    "eslint": "^4.12.1",
+    "jest": "^21.2.1"
+  }
+}
